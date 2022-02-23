@@ -1,0 +1,32 @@
+{
+  "name": "hapi-firebase-scope-auth",
+  "version": "1.0.0",
+  "description": "Firebase authentication support with scope validation for HapiJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bussr-io/hapi-firebase-scope-auth.git"
+  },
+  "keywords": [
+    "hapi",
+    "firebase",
+    "rbac",
+    "auth",
+    "authentication"
+  ],
+  "author": "Bharath Reddy Kontham <bharath2211@gmail.com>",
+  "contributors": [
+    "Sushanth Shetty <sushanthmshetty@gmail.com>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bussr-io/hapi-firebase-scope-auth/issues"
+  },
+  "homepage": "https://github.com/bussr-io/hapi-firebase-scope-auth#readme",
+  "dependencies": {
+    "@hapi/boom": "9.1.4"
+  }
+}
