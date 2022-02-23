@@ -60,6 +60,10 @@ server.routes([{
 
 ```
 
+## License
+
+[MIT](https://github.com/bussr-io/hapi-firebase-scope-auth/blob/main/LICENSE)
+
 ## Credits
 
 * Credits to Author of [hapi-firebase-auth](https://www.npmjs.com/package/hapi-firebase-auth) plugin for providing a base to create this plugin.
