@@ -4,7 +4,8 @@
   "description": "Firebase authentication support with scope validation for HapiJS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"no test specified\"",
+    "lint": "standard"
   },
   "repository": {
     "type": "git",
@@ -28,5 +29,8 @@
   "homepage": "https://github.com/bussr-io/hapi-firebase-scope-auth#readme",
   "dependencies": {
     "@hapi/boom": "9.1.4"
+  },
+  "devDependencies": {
+    "standard": "^16.0.4"
   }
 }

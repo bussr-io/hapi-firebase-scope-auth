@@ -1,0 +1,12 @@
+{
+  "extends": "standard",
+  "rules": {
+    "linebreak-style": 0,
+    "comma-dangle": 1,
+    "global-require":"off",
+    "no-param-reassign": "off"
+  },
+  "parserOptions": {
+    "ecmaVersion": 2020
+  }
+}

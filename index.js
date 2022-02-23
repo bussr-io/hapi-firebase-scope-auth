@@ -10,8 +10,7 @@ const AuthenticationSchema = (server, options) => {
      * @param {*} request Request object created by the server
      * @param {*} h Standard hapi response toolkit
      */
-    authenticate(request, h) {
-
+    authenticate (request, h) {
       // throw error if firbase admin auth instance is not configured
       if (!options.firebaseAdminAuth) {
         throw Boom.badRequest('Firebase Admin Auth Instance not configured')
@@ -21,8 +20,7 @@ const AuthenticationSchema = (server, options) => {
       const Authorization = request.headers.authorization
       if (!Authorization) return null
 
-      const bearerRegex = new RegExp(/(bearer )/i)
-      const Token = Authorization.replace(bearerRegex, '')
+      const Token = Authorization.replace(/(bearer )/i, '')
 
       // If token not found, return an 'unauthorized' response
       if (Token === null) {
@@ -34,7 +32,6 @@ const AuthenticationSchema = (server, options) => {
     }
   }
 }
-
 
 /**
  * Firebase User Token validation using Firebase Admin SDK
@@ -56,8 +53,8 @@ const validate = async (token, firebaseAdminAuthInstance, h, scopeField = 'role'
 
 /**
  * Hapi Plugin register method
- * @param {*} server 
- * @param {*} options 
+ * @param {*} server
+ * @param {*} options
  */
 const register = async (server, options) => {
   server.auth.scheme('firebase-scope', AuthenticationSchema)
