@@ -1,6 +1,6 @@
 {
   "name": "hapi-firebase-scope-auth",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Firebase authentication support with scope validation for HapiJS",
   "main": "index.js",
   "scripts": {
