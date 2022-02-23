@@ -66,5 +66,5 @@ server.routes([{
 
 ### Authors
 
-* (Bharath Reddy Kontham)[https://github.com/bharathkontham]
-* (Sushanth Shetty)[https://github.com/sushanthmshetty]
+* [Bharath Reddy Kontham](https://github.com/bharathkontham)
+* [Sushanth Shetty](https://github.com/sushanthmshetty)
