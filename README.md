@@ -62,4 +62,9 @@ server.routes([{
 
 ## Credits
 
-* Credits to Author of [hapi-firebase-auth](https://www.npmjs.com/package/hapi-firebase-auth) plugin.
+* Credits to Author of [hapi-firebase-auth](https://www.npmjs.com/package/hapi-firebase-auth) plugin for providing a base to create this plugin.
+
+### Authors
+
+* (Bharath Reddy Kontham)[https://github.com/bharathkontham]
+* (Sushanth Shetty)[https://github.com/sushanthmshetty]
